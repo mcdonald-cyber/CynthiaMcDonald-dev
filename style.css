@@ -1,0 +1,150 @@
+/* This import link is for the 'Abril Fatface' font. */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+/* Be sure to include the following code through out CSS file :  background, color, font-family, font-size, height, margin, padding, text-align */
+ 
+ hr {
+   width: 40%;
+   color:#AC9AA2
+ }
+ 
+h2{
+  color: #AC9AA2;
+  font-family: 'Montserrat', serif;
+	margin: 0px;
+	font-size: 18px;
+	text-align: Left;
+}
+
+/* remove bulletpoint from list*/
+li {
+  list-style-type: none;
+}
+
+/*Color scheme palette : #CABBBD(lightpink), #7791AB(BabyBlue), #516284(huebluegrey),#AC9AA2(dirtypink), #1C282C(darkbluegreen)*/ 
+body {
+  background-color: #060708;
+}
+/* Header Section */
+
+header h1 {
+    font-family: 'Abril Fatface', cursive;
+     color: blue; /* Fallback solid color for display when non-webkit broswers */
+    -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+/* Text color gradient properties starting from the Left moving right. */
+    background: -webkit-linear-gradient(left,lightyellow, pink,#7791AB, #516284, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header {
+  text-align: center;
+  background-color: ;
+}
+nav {
+  color: #7791AB;
+}
+/* Link buttons */
+
+.btn {
+  display: inline-block;
+  font-family: ;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-default {
+    background-color: #1C282C;
+  border: 1px solid #7791AB;
+}
+
+/* Fix the box model containers to fit outer boxes. */
+* {
+  box-sizing: border-box;
+}
+
+/* Main Section */
+Main {
+  background-color: ;
+  width: 100%;
+  margin: ;
+  padding: ;
+ 
+}
+
+/* Links style */
+a {
+  font-family: ;
+  font-size: 14px;
+}
+
+a:link    { color: #AC9AA2;  }
+a:visited { color: #7791AB;   }
+a:hover   { color: #CABBBD; }
+a:active  { color: pink;  }
+
+article {
+  background-color: ;
+  margin: ;
+  padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #516284;
+    background: #faf9f9;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.content {
+  margin: 10px;
+  padding: 30px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+}
+
+/* Footer section */
+footer {
+	text-align: center;	
+}
+
+
+footer #copyright {
+	color: white;
+	margin-top: 26px;
+}
+
+
+footer #social-media {
+	width: 100%;
+	background-color: #7791AB;
+}
+
+/*This code removes bullet from listing style and positions list side by side. */
+footer #social-media ul {
+  margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+footer #social-media ul li {
+	float: left;	
+	margin: 15px 5px 8px 5px;
+}
+
+.wrapper {
+	
+	margin: auto;
+}
